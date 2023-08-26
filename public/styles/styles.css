@@ -1,0 +1,187 @@
+html, body {
+    background-color: #F294B6;
+    font-family: 'Lato', sans-serif !important;
+}
+
+header, footer {
+    font-size: 1.2rem;
+    background-color: #3D434B;
+}
+
+main {
+    min-height: 100vh;
+    margin-bottom: -57px;
+}
+
+.push {
+    height: 57px;
+}
+
+footer {
+    color: #DCE0E3 !important;
+    font-weight: 550;
+}
+
+footer img {
+    background-color: #DCE0E3 !important;
+    border-radius: 20%;
+}
+
+.active {
+    background-color: #CF0960 !important;
+    color: #DCE0E3 !important;
+    font-weight: 650;
+}
+
+.non-active {
+    color: #9A9FA7 !important;
+    font-weight: 600;
+}
+
+.active-stat {
+    border: 1.5px solid #CF0960 !important;
+    background-color: transparent !important;
+    color: #DCE0E3 !important;
+    font-weight: 650;
+}
+
+.non-active-stat {
+    background-color: transparent !important;
+    color: #9A9FA7 !important;
+    font-weight: 600;
+}
+
+.non-active:hover, #trashbin, .delete-task {
+    cursor: pointer;
+}
+
+.delete-task {
+    align-self: center;
+    width: 22.5px;
+    height: 22.5px;
+}
+
+h1, h2 {
+    color: #DCE0E3;
+}
+
+h1 {
+    font-size: 2.85rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+.list-group {
+    background-color: #3D434B;
+}
+
+.form-check-input:checked {
+    background-color: #3D434B;
+    border: 1px solid #DCE0E3;
+}
+
+.form-check-input {
+    background-color: #3D434B;
+    border: 1px solid #DCE0E3;
+}
+
+strong {
+    font-size: 1.5rem;
+    color: #DCE0E3;
+}
+
+small {
+    font-size: 1rem;
+    color: #9A9FA7;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.list-group-item {
+    border: 0;
+    background-color: #3D434B;
+}
+
+form input {
+    text-align: center;
+    border: none;
+    background-color: #3D434B;
+    font-size: 1.5rem;
+    color: #DCE0E3;
+}
+
+textarea:focus, input:focus {
+    color: #DCE0E3;
+    outline: none;
+}
+
+form button {
+    border: 0;
+    background-color: #3D434B;
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        font-size: 1rem;
+        background-color: #3D434B;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #trashbin {
+        height: 22px;
+    }
+
+    #clearForm {
+        padding: 0;
+    }
+
+    strong {
+        font-size: 1.1rem;
+    }
+    
+    small {
+        font-size: 0.75rem;
+    }
+
+    .task-element {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    input[type="checkbox"], .delete-task {
+        height: 17px;
+        width: 17px;
+    }
+
+    .delete-task {
+        align-self: center;
+    }
+
+    form input {
+        font-size: 0.9rem;
+    }
+
+    form.list-group-item {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 0;
+    }
+
+    .form-checked-content {
+        inline-size: 225px;
+        overflow-wrap: break-word;
+    }
+}
